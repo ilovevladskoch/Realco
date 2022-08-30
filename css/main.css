@@ -148,7 +148,6 @@ h1 {
     display: flex;
 }
 
-
 .nav__button {
     margin-left: 15px;
 }
@@ -225,10 +224,12 @@ h1 {
 
 .mobile__nav .header__list li {
     margin-bottom: 20px;
+    
 }
 
 .mobile__nav .header__list {
     display: flex;
+    font-size: 30px;
 }
 
 .mobile__nav .header__search {
