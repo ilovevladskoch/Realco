@@ -200,9 +200,13 @@ h1 {
     width: 35px;
 }
 
-
+.nav__button {
+    display: none;
+    height: 36px;
+}
 
 .mobile__nav {
+    display: none;
     position: fixed;
     width: 360px;
     height: 100%;
@@ -894,6 +898,15 @@ h1 {
 
     .btn__header {
         display: none;
+    }
+
+    .nav__button {
+        display: block;
+        height: 36px;
+    }
+
+    .mobile__nav__active {
+        display: block;
     }
 }
 
