@@ -421,6 +421,24 @@ h1 {
     justify-content: flex-start;
 }
 
+.room__sub-info__card {
+    margin-right: 15px;
+}
+
+.room__sub-info__cards {
+    display: flex;
+    margin-top: 20px;
+}
+
+.room__sub-info__card .text{
+    text-align: left;
+}
+
+.room__sub-info__card img {
+    margin-bottom: 20px;
+}
+
+
 /* Background house */
 
 .house__back {
@@ -903,6 +921,14 @@ h1 {
     }
 }
 
+@media (max-width: 875px) {
+
+    .place__title {
+    width: 230px;
+    }
+}
+
+
 @media (max-width: 850px) {
     .room__card {
         flex-direction: column-reverse;
@@ -924,6 +950,12 @@ h1 {
     .room__card__reverse img {
         margin-bottom: 50px;
     }
+
+    .room__sub-info__card img {
+        margin-bottom: 20px;
+    }
+
+
 
     .room__card__reverse {
         flex-direction: column-reverse;
@@ -968,6 +1000,10 @@ h1 {
     
     .form__search {
         max-width: 50%;
+    }
+
+    .place__title {
+        width: 330px;
     }
 }
 
