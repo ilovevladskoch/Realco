@@ -640,19 +640,19 @@ h1 {
     margin-bottom: 25px;
 }
 
-/* Customers rewiev */
+/* Customers review */
 
-.rewiev {
+.review {
     margin-top: 170px;
 }
 
-.rewiev__cards {
+.review__cards {
     display: flex;
     overflow: auto;
     margin-top: 70px;
 }
 
-.rewiev__card {
+.review__card {
     padding: 33px;
     max-width: 400px;
     min-width: 270px;
@@ -662,7 +662,7 @@ h1 {
     border-radius: 16px;
 }
 
-.rewiev__card:not(:last-child) {
+.review__card:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -691,7 +691,7 @@ h1 {
 
 /* Latest posts */
 
-.rewiew__card .main__text {
+.review__card .main__text {
     margin-top: 25px;
 }
 
